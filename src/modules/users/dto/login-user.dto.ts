@@ -1,2 +1,3 @@
 import { User } from '../entities/user.entity';
-export class CreateUserDto extends User {}
+
+export class LoginUserDto extends User {}

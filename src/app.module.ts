@@ -17,6 +17,7 @@ import { User } from './modules/users/entities/user.entity';
       database: 'test',
       entities: [User],
       synchronize: true,
+      multipleStatements: true,
     }),
     UsersModule,
   ],
